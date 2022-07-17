@@ -19,10 +19,3 @@ response = openai.Completion.create(
   presence_penalty=1.0)                                                  # setting the parameters for the gpt-3 model
 st.text('Keywords:')
 st.text(response["choices"][0]["text"])                                  # displaying the output for the user to see the extracted keywords
-
-
-# steps : OPEN TERMINAL AND WRITE ALL THIS:
-# cd programming/python/ps1\(1\)
-# source ./env/bin/activate
-# streamlit run /Users/neha/programming/python/ps1\(1\)/main.py
-
